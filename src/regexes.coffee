@@ -11,7 +11,7 @@ exports.QUOTATION = new RegExp('((?:s|(?:me*){2,}).*me*)[te]*$')
 exports.EMPTY_QUOTATION = new RegExp('((?:s|(?:me*){2,}))e*')
 
 exports.ORIGINAL_MESSAGE = new RegExp('[\\s]*[-]+[ ]*(Original Message|Reply Message|Urspr\xfcngliche Nachricht|Antwort Nachricht|Oprindelig meddelelse)[ ]*[-]+', 'i')
-exports.FROM_COLON_OR_DATE_COLON = new RegExp('(_+\r?\n)?[\\s]*(:?[*]?From|Van|De|Von|Fra|Fr\xe5n|Date|Datum|Envoy\xe9|Skickat|Sendt)[\\s]?:[*]? .*', 'i')
+exports.FROM_COLON_OR_DATE_COLON = new RegExp('(_+\r?\n)?[\\s]*(:?[*]?From|Van|De|Von|Fra|Fr\xe5n|Date|Datum|Envoy\xe9|Skickat|Sendt)[\\s]?:[*]?.*', 'i')
 
 exports.DATE_PERSON = new RegExp('(\\d+/\\d+/\\d+|\\d+\\.\\d+\\.\\d+).*@')
 exports.SPELLED_OUT_DATE = new RegExp('\\S{3,10}, \\d\\d? \\S{3,10} 20\\d\\d,? \\d\\d?:\\d\\d(:\\d\\d)?( \\S+){3,6}@\\S+:')
